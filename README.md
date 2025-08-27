@@ -26,7 +26,6 @@ Below is the landing page of our CalorieWatchers app, which I was solely respons
 ![alt text](ReadMeImages/calHomepage.jpg)
 
 <p float="left">
-  <img src="/ReadMeImages/calHomepage.jpg" width="100" />
-  <img src="/ReadMeImages/calHomepage2.jpg" width="100" /> 
-  <img src="/ReadMeImages/calHomepage.jpg" width="100" />
+  <img src="/ReadMeImages/calHomepage.jpg" width="400" />
+  <img src="/ReadMeImages/calHomepage2.jpg" width="400" /> 
 </p>
