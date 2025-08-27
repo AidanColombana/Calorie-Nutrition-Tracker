@@ -21,3 +21,6 @@ Each page has unit testing, including my profile page, which tests 'user' input,
 UI & UX design and implementation for the landing page and the profile page, database management for profile information along with the micronutrients for each day, and the color theme implementation and associated memory. Lastly, I did the calculations involved with turning a user's profile into a daily recommendation for protein, carbs, and fat, which is represented both as a fraction and a visual bar.
 
 ## Demonstration
+Below is the landing page of our CalorieWatchers app, which I was solely responsible for. The summary section on the homepage is always visible, while the user can scroll across different nutrition sections such as Breakfast, Lunch, Snacks, etc.
+
+
