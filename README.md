@@ -20,9 +20,9 @@ Each page has unit testing, including my profile page, which tests 'user' input,
 ### Concepts
 UI & UX design and implementation for the landing page and the profile page, database management for profile information along with the micronutrients for each day, and the color theme implementation and associated memory. Lastly, I did the calculations involved with turning a user's profile into a daily recommendation for protein, carbs, and fat, which is represented both as a fraction and a visual bar.
 
-## Demonstration
+# Demonstration
 
-### Home Page
+## Home Page
 Below is the landing page of our CalorieWatchers app, which I was solely responsible for. The summary section on the homepage is always visible, while the user can scroll across different nutrition sections such as Breakfast, Lunch, Snacks, etc.
 
 <p float="left">
@@ -38,7 +38,7 @@ I developed the light and dark themes of the app, which are kept consistent betw
   <img src="/ReadMeImages/calHomepageLightMode.jpg" width="400" /> 
 </p>
   
-### Profile Page
+## Profile Page
 Lastly, I completely developed the profile page section, which stores the user's information, such as their name, email, weight, age, height, and sex. This is then used to create a recommended daily calorie total based on the Mifflin-St Jeor formula and a 40% carb, 30% protein, and 30% fat diet. This data is stored in the SQL database for later retrieval, meaning the user does not have to reenter any of these values when opening the app. These values dynamically change based on the user's build, which can be seen below with the calorie total decreasing, since the profile was changed from a 24-year-old 6'6 200lb man to a 24-year-old 6'0 160lb man.
   
 <p float="left">
@@ -46,7 +46,7 @@ Lastly, I completely developed the profile page section, which stores the user's
   <img src="/ReadMeImages/calChangedValuesAfterTo6.jpg" width="400" /> 
 </p>
 
-### Data Entry
+## Data Entry
 To add data entries to the project, just click on the '+' icon next to any of the meals to begin my teammates section, which is shown below. Every section contains its own macronutrients, allowing easy tracking of where most of your daily carbs, protein, and fat may come from. To add a meal to any section, simply click the 'Add More' button, and the following page will pop up.
   
 <p float="left">
@@ -54,10 +54,20 @@ To add data entries to the project, just click on the '+' icon next to any of th
   <img src="/ReadMeImages/calCustomsOrBarcodeEntry.jpg" width="400" /> 
 </p>
   
-Clicking on 'Custom Entry' takes you to this page where the nutritional facts can be manually entered. They are then stored for the day in their corresponding section which is reflected on the home page.
-
-
+### Custom Entry
+  
+Clicking on 'Custom Entry' takes you to this page, where the nutritional facts can be manually entered. They are then stored for the day in their corresponding section unless the 'X' is hit to remove it. The home page will then reflect the calorie total and macronutrients in the 'Summary' section.
+  
 <p float="left">
   <img src="/ReadMeImages/calCustomEntry.jpg" width="400" />
   <img src="/ReadMeImages/calLunchCustoms.jpg" width="400" /> 
+</p>
+  
+### Barcode Entry
+  
+Clicking on 'Barcode Entry' will connect the app to the phone's camera, or computer camera if being done with an emulator, such as when developing in Android Studio. Scanning an item's barcode will add that item to the section after confirming that the information seems correct. This is also where you can change the number of servings, since if say a bag of chips is eaten, then the likelyhood of only having 1 serving is unlikely.
+
+<p float="left">
+  <img src="/ReadMeImages/barcodeentry.jpg" width="400" />
+  <img src="/ReadMeImages/barcodeentryserving.jpg" width="400" /> 
 </p>
