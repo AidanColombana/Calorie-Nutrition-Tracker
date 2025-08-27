@@ -51,6 +51,6 @@ To add data entries to the project, just click on the '+' icon next to any of th
   
 <p float="left">
   <img src="/ReadMeImages/calLunchEmpty.jpg" width="400" />
-  <img src="/ReadMeImages/calCustomOrBarcodeEntry.jpg" width="400" /> 
+  <img src="/ReadMeImages/calCustomsOrBarcodeEntry.jpg" width="400" /> 
 </p>
   
