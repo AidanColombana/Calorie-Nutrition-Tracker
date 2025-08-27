@@ -35,7 +35,7 @@ I developed the light and dark themes of the app, which are kept consistent betw
   
 <p float="left">
   <img src="/ReadMeImages/calHomepage.jpg" width="400" />
-  <img src="/ReadMeImages/calHomepageLightMode.jpg" width="400" /> 
+  <img src="/ReadMeImages/calHomepageLightMode.jpg" width="400" height="90%" /> 
 </p>
   
 ## Profile Page
