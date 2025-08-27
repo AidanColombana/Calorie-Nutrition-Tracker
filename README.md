@@ -19,3 +19,5 @@ Each page has unit testing, including my profile page, which tests 'user' input,
 
 ### Concepts
 UI & UX design and implementation for the landing page and the profile page, database management for profile information along with the micronutrients for each day, and the color theme implementation and associated memory. Lastly, I did all the math involved with turning a user's profile into a daily recommendation for protein, carbs, and fat, which is represented both as a fraction and a visual bar.
+
+## Demonstration
