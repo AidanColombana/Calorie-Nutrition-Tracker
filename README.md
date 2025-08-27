@@ -79,6 +79,6 @@ The home page updates to reflect the entered data and stores the macronutrients 
 <sub> Note: barcode images' time stamps are different since these were from our original presentation from December. </sub>
   
 <p float="left">
-  <img src="/ReadMeImages/calHomepageRemembersData.jpg" width="400" />
+  <img src="/ReadMeImages/calHomePageRemembersData.jpg" width="400" />
   <img src="/ReadMeImages/calProfileRemembersUpdatedValues.jpg" width="400" /> 
 </p>
