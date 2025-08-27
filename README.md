@@ -54,3 +54,10 @@ To add data entries to the project, just click on the '+' icon next to any of th
   <img src="/ReadMeImages/calCustomsOrBarcodeEntry.jpg" width="400" /> 
 </p>
   
+Clicking on 'Custom Entry' takes you to this page where the nutritional facts can be manually entered. They are then stored for the day in their corresponding section which is reflected on the home page.
+
+
+<p float="left">
+  <img src="/ReadMeImages/calCustomEntry.jpg" width="400" />
+  <img src="/ReadMeImages/calLunchCustoms.jpg" width="400" /> 
+</p>
