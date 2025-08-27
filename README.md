@@ -24,3 +24,9 @@ UI & UX design and implementation for the landing page and the profile page, dat
 Below is the landing page of our CalorieWatchers app, which I was solely responsible for. The summary section on the homepage is always visible, while the user can scroll across different nutrition sections such as Breakfast, Lunch, Snacks, etc.
 
 ![alt text](ReadMeImages/calHomepage.jpg)
+
+<p float="left">
+  <img src="/ReadMeImages/calHomepage.jpg" width="100" />
+  <img src="/ReadMeImages/calHomepage2.jpg" width="100" /> 
+  <img src="/ReadMeImages/calHomepage.jpg" width="100" />
+</p>
