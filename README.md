@@ -30,12 +30,18 @@ Below is the landing page of our CalorieWatchers app, which I was solely respons
   <img src="/ReadMeImages/calHomepage2.jpg" width="400" /> 
 </p>
   
-### Profile Page
-The profile page stores the user's information, such as their name, email, weight, age, height, and sex. This is then used to create a recommended daily calorie total based on the Mifflin-St Jeor formula and a 40% carb, 30% protein, and 30% fat diet. This data is stored in the SQL database for later retrieval, meaning the user does not have to reenter any of these values when opening the app. These values dynamically change based on the user's build, which can be seen below with the calorie total decreasing, since the profile was changed from a 6'6 200lb man to a 6'0 160lb man between the light theme and dark theme images.
-  
-I developed the light and dark themes of the app, which are kept consistent between different pages based on what the user has selected. This selection is stored alongside the user profile data in the SQL database and will be set when the app is opened based on what theme the user was last using.
 
+I developed the light and dark themes of the app, which are kept consistent between different pages based on what the user has selected. This selection is stored alongside the user profile data in the SQL database and will be set when the app is opened based on what theme the user was last using.
+  
 <p float="left">
-  <img src="/ReadMeImages/calHomepageLightMode.jpg" width="400" />
-  <img src="/ReadMeImages/calProfileChangedTo6.jpg" width="400" /> 
+  <img src="/ReadMeImages/calHomepage.jpg" width="400" />
+  <img src="/ReadMeImages/calHomepageLightMode.jpg" width="400" /> 
+</p>
+  
+### Profile Page
+The profile page stores the user's information, such as their name, email, weight, age, height, and sex. This is then used to create a recommended daily calorie total based on the Mifflin-St Jeor formula and a 40% carb, 30% protein, and 30% fat diet. This data is stored in the SQL database for later retrieval, meaning the user does not have to reenter any of these values when opening the app. These values dynamically change based on the user's build, which can be seen below with the calorie total decreasing, since the profile was changed from a 6'6 200lb man to a 6'0 160lb man.
+  
+<p float="left">
+  <img src="/ReadMeImages/calProfileChangedTo6.jpg" width="400" />
+  <img src="/ReadMeImages/calChangedValuesAfterTo6" width="400" /> 
 </p>
