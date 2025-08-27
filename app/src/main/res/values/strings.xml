@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="title_activity_add_food_page">AddFoodPage</string>
+</resources>
