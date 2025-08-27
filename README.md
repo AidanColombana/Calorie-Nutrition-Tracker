@@ -39,9 +39,18 @@ I developed the light and dark themes of the app, which are kept consistent betw
 </p>
   
 ### Profile Page
-The profile page stores the user's information, such as their name, email, weight, age, height, and sex. This is then used to create a recommended daily calorie total based on the Mifflin-St Jeor formula and a 40% carb, 30% protein, and 30% fat diet. This data is stored in the SQL database for later retrieval, meaning the user does not have to reenter any of these values when opening the app. These values dynamically change based on the user's build, which can be seen below with the calorie total decreasing, since the profile was changed from a 6'6 200lb man to a 6'0 160lb man.
+Lastly, I completely developed the profile page section, which stores the user's information, such as their name, email, weight, age, height, and sex. This is then used to create a recommended daily calorie total based on the Mifflin-St Jeor formula and a 40% carb, 30% protein, and 30% fat diet. This data is stored in the SQL database for later retrieval, meaning the user does not have to reenter any of these values when opening the app. These values dynamically change based on the user's build, which can be seen below with the calorie total decreasing, since the profile was changed from a 24-year-old 6'6 200lb man to a 24-year-old 6'0 160lb man.
   
 <p float="left">
   <img src="/ReadMeImages/calProfileChangedTo6.jpg" width="400" />
   <img src="/ReadMeImages/calChangedValuesAfterTo6.jpg" width="400" /> 
 </p>
+
+### Data Entry
+To add data entries to the project, just click on the '+' icon next to any of the meals to begin my teammates section, which is shown below. Every section contains its own macronutrients, allowing easy tracking of where most of your daily carbs, protein, and fat may come from. To add a meal to any section, simply click the 'Add More' button, and the following page will pop up.
+  
+<p float="left">
+  <img src="/ReadMeImages/calLunchEmpty.jpg" width="400" />
+  <img src="/ReadMeImages/calCustomOrBarcodeEntry.jpg" width="400" /> 
+</p>
+  
