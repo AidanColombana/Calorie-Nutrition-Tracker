@@ -75,10 +75,10 @@ Clicking on 'Barcode Entry' will connect the app to the phone's camera, or compu
 ## Home Page Summary & SQL Database
   
 The home page updates to reflect the entered data and stores the macronutrients and calories of each 'Nutrition' section in an SQL database. This database is used to track and maintain the app's data after the app is closed, by first saving it on entry and then retrieving it when the app is reopened. The same is true for the profile section, and as shown in the previous sections, these images were taken first at roughly 6 PM, when the app was closed, and then reopened at roughly 8 PM to take these last 2 screenshots.  
-  
-<sub> Note: barcode images' time stamps are different since these were from our original presentation from December. </sub>
-  
+    
 <p float="left">
   <img src="/ReadMeImages/calHomePageRemembersData.jpg" width="400" />
   <img src="/ReadMeImages/calProfileRemembersUpdatedValues.jpg" width="400" /> 
 </p>
+  
+<sub> Note: barcode images' time stamps are different since these were from our original presentation from December. </sub>
