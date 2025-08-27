@@ -43,5 +43,5 @@ The profile page stores the user's information, such as their name, email, weigh
   
 <p float="left">
   <img src="/ReadMeImages/calProfileChangedTo6.jpg" width="400" />
-  <img src="/ReadMeImages/calChangedValuesAfterTo6" width="400" /> 
+  <img src="/ReadMeImages/calChangedValuesAfterTo6.jpg" width="400" /> 
 </p>
