@@ -4,7 +4,7 @@
 This Android app was developed as a final project for a mobile app course at Western Washington University. The app was made in a group of three completely from scratch, with each member taking on a specific 
 development role. The goal was to make a full-stack Android mobile app in Kotlin using Jetpack Compose. The app measures calories and micronutrients at a per-calorie level, or at a glance, thanks to the bar graphs of each fraction - no user math required! Food items are separated into different meal categories, each of which can have a manually entered meal, or if the meal, snack, or ingredients come with a barcode, it can be scanned for quick entry! 
   
-An SQL database stores the user's meals, micronutrients, and profile preferences, such as a username, email, weight, height, gender, and whether the user prefers the light or dark color theme. This information is used to calculate the recommended micronutrients based on the Mifflin-St Jeor formula, which finds a person's resting metabolic rate (RMR). This is then used to calculate the recommended protein, carbs, and fat based on a 40% carbs, 30% protein, and 30% fat diet.  
+An SQL database stores the user's meals, micronutrients, and profile preferences, such as a username, email, weight, height, age, gender, and whether the user prefers the light or dark color theme. This information is used to calculate the recommended micronutrients based on the Mifflin-St Jeor formula, which finds a person's resting metabolic rate (RMR). This is then used to calculate the recommended protein, carbs, and fat based on a 40% carbs, 30% protein, and 30% fat diet.  
   
 These calculations, along with the target weight, can be used to graph your progress on your weight loss, weight gain, or micronutrient journey! This is done through the app detecting the day ending, saving that information to the SQL database, and then having it added to the user's graph data.
 
@@ -21,9 +21,21 @@ Each page has unit testing, including my profile page, which tests 'user' input,
 UI & UX design and implementation for the landing page and the profile page, database management for profile information along with the micronutrients for each day, and the color theme implementation and associated memory. Lastly, I did the calculations involved with turning a user's profile into a daily recommendation for protein, carbs, and fat, which is represented both as a fraction and a visual bar.
 
 ## Demonstration
+
+### Home Page
 Below is the landing page of our CalorieWatchers app, which I was solely responsible for. The summary section on the homepage is always visible, while the user can scroll across different nutrition sections such as Breakfast, Lunch, Snacks, etc.
 
 <p float="left">
   <img src="/ReadMeImages/calHomepage.jpg" width="400" />
   <img src="/ReadMeImages/calHomepage2.jpg" width="400" /> 
+</p>
+  
+### Profile Page
+The profile page stores the user's information, such as their name, email, weight, age, height, and sex. This is then used to create a recommended daily calorie total based on the Mifflin-St Jeor formula and a 40% carb, 30% protein, and 30% fat diet. This data is stored in the SQL database for later retrieval, meaning the user does not have to reenter any of these values when opening the app. These values dynamically change based on the user's build, which can be seen below with the calorie total decreasing, since the profile was changed from a 6'6 200lb man to a 6'0 160lb man between the light theme and dark theme images.
+  
+I developed the light and dark themes of the app, which are kept consistent between different pages based on what the user has selected. This selection is stored alongside the user profile data in the SQL database and will be set when the app is opened based on what theme the user was last using.
+
+<p float="left">
+  <img src="/ReadMeImages/calHomepageLightMode.jpg" width="400" />
+  <img src="/ReadMeImages/calProfileChangedTo6.jpg" width="400" /> 
 </p>
