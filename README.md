@@ -65,7 +65,7 @@ Clicking on 'Custom Entry' takes you to this page, where the nutritional facts c
   
 ### Barcode Entry
   
-Clicking on 'Barcode Entry' will connect the app to the phone's camera, or computer camera if being done with an emulator, such as when developing in Android Studio. Scanning an item's barcode will add that item to the section after confirming that the information seems correct. This is also where you can change the number of servings, since if say a bag of chips is eaten, then the likelyhood of only having 1 serving is unlikely.
+Clicking on 'Barcode Entry' will connect the app to the phone's camera, or computer camera if being done with an emulator, such as when developing in Android Studio. Scanning an item's barcode will add that item to the section after confirming that the information seems correct. This is also where you can change the number of servings, since when eating a bag of chips or grapes, the likelihood of only having 1 serving is unlikely.
 
 <p float="left">
   <img src="/ReadMeImages/barcodeentry.png" width="400" />
