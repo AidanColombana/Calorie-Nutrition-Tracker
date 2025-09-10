@@ -31,7 +31,7 @@ Below is the landing page of our CalorieWatchers app, which I was solely respons
 </p>
   
 
-I developed the light and dark themes of the app, which are kept consistent between different pages based on what the user has selected. This selection is stored alongside the user profile data in the SQL database and will be set when the app is opened based on what theme the user was last using.
+I developed the light and dark themes of the app, which are consistently applied across different pages based on the user's selection. This selection is stored alongside the user profile data in the SQL database and will be set when the app is opened based on what theme the user was last using.
   
 <p float="left">
   <img src="/ReadMeImages/calHomepage.jpg" width="400" />
@@ -56,7 +56,7 @@ To add data entries to the project, just click on the '+' icon next to any of th
   
 ### Custom Entry
   
-Clicking on 'Custom Entry' takes you to this page, where the nutritional facts can be manually entered. They are then stored for the day in their corresponding section unless the 'X' is hit to remove it. The home page will then reflect the calorie total and macronutrients in the 'Summary' section.
+Clicking on 'Custom Entry' directs you to this page, where you can manually enter the nutritional facts. They are then stored for the day in their corresponding section unless the 'X' is hit to remove it. The home page will then reflect the calorie total and macronutrients in the 'Summary' section.
   
 <p float="left">
   <img src="/ReadMeImages/calCustomEntry.jpg" width="400" />
